@@ -33,7 +33,7 @@ export default function Weather() {
             src="https://ssl.gstatic.com/onebox/weather/64/rain.png"
             alt="Rainy"
           />
-          18C
+          18°C
         </div>
         <div className="col-6">
           <ul>
