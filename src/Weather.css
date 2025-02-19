@@ -24,3 +24,38 @@
   line-height: 19px;
   list-style: none;
 }
+
+.btn {
+  background-color: #f12a7b;
+  border: 1px solid #f12a7b;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #f12a7b;
+  border: 1px solid #f12a7b;
+}
+
+.Weather img {
+  height: 64px;
+  margin-right: 4px;
+  display: inline-block;
+  margin-bottom: 34px;
+  width: 64px;
+}
+.Weather .temperature {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 74px;
+  font-weight: 400;
+}
+
+.Weather .units {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  top: -34px;
+  margin-left: 5px;
+  line-height: 1;
+}

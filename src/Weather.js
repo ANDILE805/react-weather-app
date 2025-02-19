@@ -25,15 +25,16 @@ export default function Weather() {
       <h1>Osizweni</h1>
       <ul>
         <li>Wednesday 07:00</li>
-        <li>Mostly Cloudy</li>
+        <li>Rainy</li>
       </ul>
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-6">
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/rain.png"
             alt="Rainy"
           />
-          18°C
+          <span className="temperature">18</span>
+          <span className="units">°C</span>
         </div>
         <div className="col-6">
           <ul>
