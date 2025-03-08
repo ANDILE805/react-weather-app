@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Durban" />
         <footer>
           This project was coded by {""}
           <a href="https://www.linkedin.com/in/andile-mbatha-a56a2915b/">
