@@ -36,12 +36,10 @@
   border: 1px solid #f12a7b;
 }
 
-.Weather img {
-  height: 64px;
-  margin-right: 4px;
+.Weather canvas {
+  height: 53px;
   display: inline-block;
-  margin-bottom: 34px;
-  width: 64px;
+  width: 100px;
 }
 .Weather .temperature {
   color: rgb(33, 33, 33);
