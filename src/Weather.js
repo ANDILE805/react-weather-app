@@ -8,6 +8,7 @@ export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
 
+
   function handleResponse(response) {
     setWeatherData({
       ready: true,
@@ -25,10 +26,7 @@ export default function Weather(props) {
   function search() {
     const apiKey = "cd7ff0b39233e546tfae64f37ao44b9a";
     let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
-    axios.get(apiUrl).then(handleResponse).catch((error) => {
-      alert("City not found. Please enter a valid city name.");
-      setWeatherData({ ready: false }); 
-    });
+    axios.get(apiUrl).then(handleResponse);
   }
 
   function handleSubmit(event) {
