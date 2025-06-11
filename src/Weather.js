@@ -27,7 +27,7 @@ export default function Weather(props) {
     let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse).catch((error) => {
       alert("City not found. Please enter a valid city name.");
-      setWeatherData({ ready: false }); 
+      // setWeatherData({ ready: false }); 
     });
   }
 
